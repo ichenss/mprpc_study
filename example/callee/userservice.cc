@@ -23,7 +23,7 @@ public:
                        ::fixbug::LoginResponse* response,
                        ::google::protobuf::Closure* done)
     {
-
+        
     }
 
 };
