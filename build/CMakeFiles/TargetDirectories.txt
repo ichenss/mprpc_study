@@ -1,5 +1,8 @@
 /home/yuhang/mprpc_study/build/CMakeFiles/edit_cache.dir
 /home/yuhang/mprpc_study/build/CMakeFiles/rebuild_cache.dir
+/home/yuhang/mprpc_study/build/src/CMakeFiles/mprpc.dir
+/home/yuhang/mprpc_study/build/src/CMakeFiles/edit_cache.dir
+/home/yuhang/mprpc_study/build/src/CMakeFiles/rebuild_cache.dir
 /home/yuhang/mprpc_study/build/example/CMakeFiles/edit_cache.dir
 /home/yuhang/mprpc_study/build/example/CMakeFiles/rebuild_cache.dir
 /home/yuhang/mprpc_study/build/example/callee/CMakeFiles/provider.dir
