@@ -152,7 +152,7 @@ src/CMakeFiles/mprpc.dir/clean:
 # Target rules for target example/callee/CMakeFiles/provider.dir
 
 # All Build rule for target.
-example/callee/CMakeFiles/provider.dir/all:
+example/callee/CMakeFiles/provider.dir/all: src/CMakeFiles/mprpc.dir/all
 	$(MAKE) $(MAKESILENT) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/depend
 	$(MAKE) $(MAKESILENT) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yuhang/mprpc_study/build/CMakeFiles --progress-num=4,5,6 "Built target provider"
@@ -160,7 +160,7 @@ example/callee/CMakeFiles/provider.dir/all:
 
 # Build rule for subdir invocation for target.
 example/callee/CMakeFiles/provider.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yuhang/mprpc_study/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yuhang/mprpc_study/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/callee/CMakeFiles/provider.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/yuhang/mprpc_study/build/CMakeFiles 0
 .PHONY : example/callee/CMakeFiles/provider.dir/rule
