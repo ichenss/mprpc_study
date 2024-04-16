@@ -56,12 +56,12 @@ void MprpcConfig::LoadConfigFile(const char *config_file)
     }
 }
 // 查询配置项信息
- std::string MprpcConfig::Load(const std::string &key) 
- {
-    auto it = m_configMap.find(key);
-    if (it == m_configMap.end())
-    {
-        return "";
-    }
-    return it->second;
- }
+std::string MprpcConfig::Load(const std::string &key) 
+{
+   auto it = m_configMap.find(key);
+   if (it == m_configMap.end())
+   {
+       return "";
+   }
+   return it->second;
+}
