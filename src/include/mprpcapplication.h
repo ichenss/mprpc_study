@@ -10,6 +10,8 @@ public:
 
     static MprpcApplication& GetInstance();
 
+    static MprpcConfig& GetConfig();
+
 private:
     static MprpcConfig m_config;
 
