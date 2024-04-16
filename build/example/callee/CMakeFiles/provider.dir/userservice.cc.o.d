@@ -288,4 +288,5 @@ example/callee/CMakeFiles/provider.dir/userservice.cc.o: \
  /usr/local/include/google/protobuf/extension_set.h \
  /usr/include/c++/11/cassert /usr/local/include/google/protobuf/service.h \
  /home/yuhang/mprpc_study/src/include/mprpcapplication.h \
+ /home/yuhang/mprpc_study/src/include/mprpcconfig.h \
  /home/yuhang/mprpc_study/src/include/rpcprovider.h
