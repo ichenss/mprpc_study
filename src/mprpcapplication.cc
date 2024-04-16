@@ -3,6 +3,8 @@
 #include <unistd.h>
 #include <string>
 
+MprpcConfig MprpcApplication::m_config;
+
 void ShowArgsHelp()
 {
     std::cout << "format: command -i <configfile>" << std::endl;
@@ -37,7 +39,7 @@ void MprpcApplication::Init(int argc, char **argv)
     }
 
     // 开始加载配置文件
-    
+    m_config.LoadConfigFile(config_file.c_str());
 }
 
 MprpcApplication& MprpcApplication::GetInstance()

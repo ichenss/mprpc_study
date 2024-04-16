@@ -4,7 +4,8 @@
 #include <string>
 
 // 框架读取配置文件类
-class MprpcConfig{
+class MprpcConfig
+{
 public:
     // 负责解析加载配置文件
     void LoadConfigFile(const char *config_file);
