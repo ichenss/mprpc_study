@@ -58,6 +58,7 @@ std::string MprpcConfig::Load(const std::string &key)
     return it->second;
 }
 
+// 去掉字符串前后空格
 void MprpcConfig::Trim(std::string &src_buf)
 {
     int idx = src_buf.find_first_not_of(' ');
