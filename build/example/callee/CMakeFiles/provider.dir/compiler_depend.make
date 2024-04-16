@@ -695,6 +695,7 @@ example/callee/CMakeFiles/provider.dir/userservice.cc.o: ../example/callee/users
   /usr/include/c++/11/cassert \
   /usr/local/include/google/protobuf/service.h \
   ../src/include/mprpcapplication.h \
+  ../src/include/mprpcconfig.h \
   ../src/include/rpcprovider.h
 
 
@@ -1105,6 +1106,8 @@ example/callee/CMakeFiles/provider.dir/userservice.cc.o: ../example/callee/users
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
 
 /usr/include/c++/11/limits:
+
+../src/include/mprpcconfig.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
