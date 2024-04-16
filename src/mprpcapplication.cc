@@ -26,11 +26,9 @@ void MprpcApplication::Init(int argc, char **argv)
             config_file = optarg;
             break;
         case '?':
-            std::cout << "invalid args!" << std::endl;
             ShowArgsHelp();
             exit(EXIT_FAILURE);
         case ':':
-            std::cout << "need <configfile>!" << std::endl;
             ShowArgsHelp();
             exit(EXIT_FAILURE);
         default:

@@ -146,8 +146,7 @@ example/callee/CMakeFiles/provider.dir/userservice.cc.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /home/yuhang/mprpc_study/example/callee/../user.pb.h \
- /usr/include/c++/11/limits \
+ /home/yuhang/mprpc_study/example/user.pb.h /usr/include/c++/11/limits \
  /usr/local/include/google/protobuf/port_def.inc \
  /usr/local/include/google/protobuf/port_undef.inc \
  /usr/local/include/google/protobuf/io/coded_stream.h \
@@ -287,4 +286,6 @@ example/callee/CMakeFiles/provider.dir/userservice.cc.o: \
  /usr/local/include/google/protobuf/generated_enum_reflection.h \
  /usr/local/include/google/protobuf/message.h \
  /usr/local/include/google/protobuf/extension_set.h \
- /usr/include/c++/11/cassert /usr/local/include/google/protobuf/service.h
+ /usr/include/c++/11/cassert /usr/local/include/google/protobuf/service.h \
+ /home/yuhang/mprpc_study/src/include/mprpcapplication.h \
+ /home/yuhang/mprpc_study/src/include/rpcprovider.h
