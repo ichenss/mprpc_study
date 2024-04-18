@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/yuhang/mprpc_study/build/src",
+  "command": "/usr/bin/g++  -I/home/yuhang/mprpc_study/src/include -I/home/yuhang/mprpc_study/example -g -o CMakeFiles/mprpc.dir/mprpcapplication.cc.o -c /home/yuhang/mprpc_study/src/mprpcapplication.cc",
+  "file": "/home/yuhang/mprpc_study/src/mprpcapplication.cc"
+},
+{
+  "directory": "/home/yuhang/mprpc_study/build/src",
+  "command": "/usr/bin/g++  -I/home/yuhang/mprpc_study/src/include -I/home/yuhang/mprpc_study/example -g -o CMakeFiles/mprpc.dir/mprpcconfig.cc.o -c /home/yuhang/mprpc_study/src/mprpcconfig.cc",
+  "file": "/home/yuhang/mprpc_study/src/mprpcconfig.cc"
+},
+{
+  "directory": "/home/yuhang/mprpc_study/build/src",
+  "command": "/usr/bin/g++  -I/home/yuhang/mprpc_study/src/include -I/home/yuhang/mprpc_study/example -g -o CMakeFiles/mprpc.dir/rpcprovider.cc.o -c /home/yuhang/mprpc_study/src/rpcprovider.cc",
+  "file": "/home/yuhang/mprpc_study/src/rpcprovider.cc"
+},
+{
+  "directory": "/home/yuhang/mprpc_study/build/example/callee",
+  "command": "/usr/bin/g++  -I/home/yuhang/mprpc_study/src/include -I/home/yuhang/mprpc_study/example -g -o CMakeFiles/provider.dir/userservice.cc.o -c /home/yuhang/mprpc_study/example/callee/userservice.cc",
+  "file": "/home/yuhang/mprpc_study/example/callee/userservice.cc"
+},
+{
+  "directory": "/home/yuhang/mprpc_study/build/example/callee",
+  "command": "/usr/bin/g++  -I/home/yuhang/mprpc_study/src/include -I/home/yuhang/mprpc_study/example -g -o CMakeFiles/provider.dir/__/user.pb.cc.o -c /home/yuhang/mprpc_study/example/user.pb.cc",
+  "file": "/home/yuhang/mprpc_study/example/user.pb.cc"
+}
+]
