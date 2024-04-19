@@ -104,4 +104,24 @@ void RpcProvider::OnMessage(const muduo::net::TcpConnectionPtr& conn,
     std::cout << "method_name" << method_name << std::endl;
     std::cout << "args_str" << args_str << std::endl;
     std::cout << "-------------------------------------------" << std::endl;
+
+    // 获取service对象和method对象
+    auto it = m_serviceMap.find(service_name);
+    if (it == m_serviceMap.end())
+    {
+        std::cout << service_name << "is not exist!" << std::endl;
+        return;
+    }
+
+    auto mit = it->second.m_methodMap.find(method_name);
+    if (mit == it->second.m_methodMap.end())
+    {
+        std::cout << service_name << ": " << method_name << "is not exist!" << std::endl;
+        return;
+    }
+    google::protobuf::Service *service = it->second.m_service;  // 获取service对象  new UserService
+    const google::protobuf::MethodDescriptor *method = mit->second;  // 获取method对象  Login
+
+    // 生成rpc方法调用的请求request和响应response参数
+    google::protobuf::Message *request = service->GetRequestPrototype(method).New();
 }
