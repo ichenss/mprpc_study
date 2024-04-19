@@ -775,8 +775,99 @@ src/CMakeFiles/mprpc.dir/rpcprovider.cc.o: ../src/rpcprovider.cc \
   /usr/include/c++/11/bits/unique_lock.h \
   /usr/local/include/google/protobuf/stubs/once.h \
   ../src/include/mprpcapplication.h \
-  ../src/include/mprpcconfig.h
+  ../src/include/mprpcconfig.h \
+  ../src/rpcheader.pb.h \
+  /usr/local/include/google/protobuf/io/coded_stream.h \
+  /usr/include/c++/11/climits \
+  /usr/local/include/google/protobuf/stubs/logging.h \
+  /usr/local/include/google/protobuf/stubs/strutil.h \
+  /usr/local/include/google/protobuf/stubs/stringpiece.h \
+  /usr/local/include/google/protobuf/stubs/hash.h \
+  /usr/include/c++/11/unordered_set \
+  /usr/include/c++/11/bits/unordered_set.h \
+  /usr/local/include/google/protobuf/port.h \
+  /usr/local/include/google/protobuf/arena.h \
+  /usr/local/include/google/protobuf/arena_impl.h \
+  /usr/local/include/google/protobuf/arenastring.h \
+  /usr/local/include/google/protobuf/stubs/fastmem.h \
+  /usr/local/include/google/protobuf/generated_message_table_driven.h \
+  /usr/local/include/google/protobuf/map.h \
+  /usr/local/include/google/protobuf/generated_enum_util.h \
+  /usr/local/include/google/protobuf/message_lite.h \
+  /usr/local/include/google/protobuf/map_type_handler.h \
+  /usr/local/include/google/protobuf/parse_context.h \
+  /usr/local/include/google/protobuf/io/zero_copy_stream.h \
+  /usr/local/include/google/protobuf/implicit_weak_message.h \
+  /usr/local/include/google/protobuf/repeated_field.h \
+  /usr/local/include/google/protobuf/stubs/casts.h \
+  /usr/local/include/google/protobuf/metadata_lite.h \
+  /usr/local/include/google/protobuf/generated_message_util.h \
+  /usr/local/include/google/protobuf/any.h \
+  /usr/local/include/google/protobuf/has_bits.h \
+  /usr/local/include/google/protobuf/wire_format_lite.h \
+  /usr/local/include/google/protobuf/map_entry_lite.h \
+  /usr/local/include/google/protobuf/map_field_lite.h \
+  /usr/local/include/google/protobuf/inlined_string_field.h \
+  /usr/local/include/google/protobuf/metadata.h \
+  /usr/local/include/google/protobuf/unknown_field_set.h \
+  /usr/local/include/google/protobuf/io/zero_copy_stream_impl_lite.h \
+  /usr/local/include/google/protobuf/stubs/stl_util.h \
+  /usr/local/include/google/protobuf/generated_message_reflection.h \
+  /usr/local/include/google/protobuf/generated_enum_reflection.h \
+  /usr/local/include/google/protobuf/message.h \
+  /usr/local/include/google/protobuf/extension_set.h \
+  /usr/include/c++/11/cassert
 
+
+/usr/include/c++/11/cassert:
+
+/usr/local/include/google/protobuf/extension_set.h:
+
+/usr/local/include/google/protobuf/generated_message_reflection.h:
+
+/usr/local/include/google/protobuf/stubs/stl_util.h:
+
+/usr/local/include/google/protobuf/unknown_field_set.h:
+
+/usr/local/include/google/protobuf/metadata.h:
+
+/usr/local/include/google/protobuf/inlined_string_field.h:
+
+/usr/local/include/google/protobuf/metadata_lite.h:
+
+/usr/local/include/google/protobuf/implicit_weak_message.h:
+
+/usr/local/include/google/protobuf/io/zero_copy_stream.h:
+
+/usr/local/include/google/protobuf/parse_context.h:
+
+/usr/local/include/google/protobuf/message.h:
+
+/usr/local/include/google/protobuf/map_type_handler.h:
+
+/usr/local/include/google/protobuf/generated_enum_util.h:
+
+/usr/local/include/google/protobuf/map.h:
+
+/usr/local/include/google/protobuf/generated_message_table_driven.h:
+
+/usr/local/include/google/protobuf/stubs/fastmem.h:
+
+/usr/local/include/google/protobuf/arena_impl.h:
+
+/usr/local/include/google/protobuf/arena.h:
+
+/usr/local/include/google/protobuf/port.h:
+
+/usr/include/c++/11/bits/unordered_set.h:
+
+/usr/local/include/google/protobuf/stubs/strutil.h:
+
+/usr/local/include/google/protobuf/stubs/logging.h:
+
+/usr/local/include/google/protobuf/io/coded_stream.h:
+
+../src/rpcheader.pb.h:
 
 /usr/include/c++/11/bits/std_mutex.h:
 
@@ -820,6 +911,8 @@ src/CMakeFiles/mprpc.dir/rpcprovider.cc.o: ../src/rpcprovider.cc \
 
 /usr/include/x86_64-linux-gnu/bits/sockaddr.h:
 
+/usr/local/include/google/protobuf/repeated_field.h:
+
 /usr/include/x86_64-linux-gnu/bits/socket_type.h:
 
 /usr/include/x86_64-linux-gnu/bits/socket.h:
@@ -846,6 +939,10 @@ src/CMakeFiles/mprpc.dir/rpcprovider.cc.o: ../src/rpcprovider.cc \
 
 /usr/include/c++/11/version:
 
+/usr/local/include/google/protobuf/generated_enum_reflection.h:
+
+/usr/local/include/google/protobuf/map_field_lite.h:
+
 /usr/include/boost/config/compiler/gcc.hpp:
 
 /usr/include/boost/config/detail/select_compiler_config.hpp:
@@ -867,6 +964,8 @@ src/CMakeFiles/mprpc.dir/rpcprovider.cc.o: ../src/rpcprovider.cc \
 /usr/include/muduo/net/TcpServer.h:
 
 /usr/include/c++/11/bits/stl_multiset.h:
+
+/usr/local/include/google/protobuf/map_entry_lite.h:
 
 /usr/include/c++/11/bits/stl_set.h:
 
@@ -923,6 +1022,8 @@ src/CMakeFiles/mprpc.dir/rpcprovider.cc.o: ../src/rpcprovider.cc \
 /usr/include/x86_64-linux-gnu/bits/param.h:
 
 /usr/include/x86_64-linux-gnu/bits/signal_ext.h:
+
+/usr/local/include/google/protobuf/any.h:
 
 /usr/include/x86_64-linux-gnu/bits/sigthread.h:
 
@@ -1002,6 +1103,8 @@ src/CMakeFiles/mprpc.dir/rpcprovider.cc.o: ../src/rpcprovider.cc \
 
 /usr/include/c++/11/bits/stringfwd.h:
 
+/usr/include/c++/11/unordered_set:
+
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
@@ -1013,6 +1116,8 @@ src/CMakeFiles/mprpc.dir/rpcprovider.cc.o: ../src/rpcprovider.cc \
 /usr/include/unistd.h:
 
 /usr/include/c++/11/bits/stl_algobase.h:
+
+/usr/local/include/google/protobuf/stubs/casts.h:
 
 /usr/include/c++/11/cstring:
 
@@ -1102,6 +1207,8 @@ src/CMakeFiles/mprpc.dir/rpcprovider.cc.o: ../src/rpcprovider.cc \
 
 /usr/include/c++/11/array:
 
+/usr/include/c++/11/climits:
+
 /usr/include/c++/11/new:
 
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
@@ -1139,6 +1246,8 @@ src/CMakeFiles/mprpc.dir/rpcprovider.cc.o: ../src/rpcprovider.cc \
 /usr/include/c++/11/debug/assertions.h:
 
 /usr/include/linux/close_range.h:
+
+/usr/local/include/google/protobuf/stubs/hash.h:
 
 /usr/include/x86_64-linux-gnu/asm/bitsperlong.h:
 
@@ -1258,7 +1367,11 @@ src/CMakeFiles/mprpc.dir/rpcprovider.cc.o: ../src/rpcprovider.cc \
 
 /usr/include/c++/11/bits/string_view.tcc:
 
+/usr/local/include/google/protobuf/wire_format_lite.h:
+
 /usr/include/x86_64-linux-gnu/bits/locale.h:
+
+/usr/local/include/google/protobuf/message_lite.h:
 
 /usr/include/c++/11/bits/hashtable_policy.h:
 
@@ -1372,6 +1485,8 @@ src/CMakeFiles/mprpc.dir/rpcprovider.cc.o: ../src/rpcprovider.cc \
 
 /usr/include/c++/11/bits/basic_string.tcc:
 
+/usr/local/include/google/protobuf/generated_message_util.h:
+
 /usr/include/x86_64-linux-gnu/bits/sigaction.h:
 
 /usr/include/c++/11/ostream:
@@ -1381,6 +1496,8 @@ src/CMakeFiles/mprpc.dir/rpcprovider.cc.o: ../src/rpcprovider.cc \
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
 
 /usr/include/c++/11/typeinfo:
+
+/usr/local/include/google/protobuf/has_bits.h:
 
 /usr/include/muduo/net/EventLoop.h:
 
@@ -1397,6 +1514,8 @@ src/CMakeFiles/mprpc.dir/rpcprovider.cc.o: ../src/rpcprovider.cc \
 /usr/include/c++/11/cstddef:
 
 /usr/include/c++/11/bits/stl_vector.h:
+
+/usr/local/include/google/protobuf/stubs/stringpiece.h:
 
 /usr/include/c++/11/ios:
 
@@ -1421,6 +1540,8 @@ src/CMakeFiles/mprpc.dir/rpcprovider.cc.o: ../src/rpcprovider.cc \
 /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
 /usr/include/c++/11/bits/locale_facets.tcc:
+
+/usr/local/include/google/protobuf/arenastring.h:
 
 /usr/include/c++/11/bits/enable_special_members.h:
 
@@ -1493,6 +1614,8 @@ src/CMakeFiles/mprpc.dir/rpcprovider.cc.o: ../src/rpcprovider.cc \
 /usr/include/c++/11/bits/std_abs.h:
 
 /usr/include/c++/11/bits/stl_heap.h:
+
+/usr/local/include/google/protobuf/io/zero_copy_stream_impl_lite.h:
 
 /usr/local/include/google/protobuf/stubs/callback.h:
 
