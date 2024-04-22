@@ -60,6 +60,15 @@ void RpcProvider::OnConnect(const muduo::net::TcpConnectionPtr& conn)
     }
 }
 
+/*
+在框架内部，RpcProvider和RpcConsumer协商好之间通信用的protobuf数据类型
+service_name method_name args    定义proto的message类型，进行数据头的序列化和反序列化
+                                 service_name method_name args_size
+16UserServiceLoginzhang san123456   
+
+header_size(4个字节) + header_str + args_str
+std::string   insert和copy方法 
+*/
 // 已建立连接用户的读写事件回调，如果远程有一个rpc服务的调用请求，那么OnMessage方法就会响应
 void RpcProvider::OnMessage(const muduo::net::TcpConnectionPtr& conn, 
                             muduo::net::Buffer* buffer, 

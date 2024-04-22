@@ -305,7 +305,7 @@ src/CMakeFiles/mprpc.dir/rpcprovider.cc.o: \
  /usr/local/include/google/protobuf/stubs/once.h \
  /home/yuhang/mprpc_study/src/include/mprpcapplication.h \
  /home/yuhang/mprpc_study/src/include/mprpcconfig.h \
- /home/yuhang/mprpc_study/src/rpcheader.pb.h \
+ /home/yuhang/mprpc_study/src/include/rpcheader.pb.h \
  /usr/local/include/google/protobuf/io/coded_stream.h \
  /usr/include/c++/11/climits \
  /usr/local/include/google/protobuf/stubs/logging.h \
