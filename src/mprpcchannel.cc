@@ -57,11 +57,11 @@ void MprpcChannel::CallMethod(const google::protobuf::MethodDescriptor* method,
 
     // 打印调试信息
     std::cout << "-------------------------------------------" << std::endl;
-    std::cout << "header_size" << header_size << std::endl;
-    std::cout << "rpc_header_str" << rpc_header_str << std::endl;
-    std::cout << "service_name" << service_name << std::endl;
-    std::cout << "method_name" << method_name << std::endl;
-    std::cout << "args_str" << args_str << std::endl;
+    std::cout << "header_size: " << header_size << std::endl;
+    std::cout << "rpc_header_str: " << rpc_header_str << std::endl;
+    std::cout << "service_name: " << service_name << std::endl;
+    std::cout << "method_name: " << method_name << std::endl;
+    std::cout << "args_str: " << args_str << std::endl;
     std::cout << "-------------------------------------------" << std::endl;
 
     // 使用tcp编程完成rpc方法远程调用
@@ -105,10 +105,11 @@ void MprpcChannel::CallMethod(const google::protobuf::MethodDescriptor* method,
     }
 
     // 反序列化rpc调用的响应数据
-    std::string response_str(recv_buf, 0, recv_size);
-    if (!response->ParseFromString(response_str))
+    // std::string response_str(recv_buf, 0, recv_size);
+    // if (!response->ParseFromString(response_str))
+    if (!response->ParseFromArray(recv_buf, recv_size))
     {
-        std::cout << "parse error response_str: " << response_str << std::endl;
+        std::cout << "parse error response_str: " << recv_buf << std::endl;
         close(clientfd);
         return;
     }
