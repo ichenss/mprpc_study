@@ -285,6 +285,7 @@ src/CMakeFiles/mprpc.dir/mprpcchannel.cc.o: \
  /usr/local/include/google/protobuf/stubs/stl_util.h \
  /home/yuhang/mprpc_study/src/include/mprpcapplication.h \
  /home/yuhang/mprpc_study/src/include/mprpcconfig.h \
+ /home/yuhang/mprpc_study/src/include/mprpccontroller.h \
  /home/yuhang/mprpc_study/src/include/rpcheader.pb.h \
  /usr/local/include/google/protobuf/generated_message_table_driven.h \
  /usr/local/include/google/protobuf/map.h \

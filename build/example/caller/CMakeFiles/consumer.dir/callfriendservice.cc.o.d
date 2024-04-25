@@ -159,7 +159,7 @@ example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o: \
  /usr/include/c++/11/bits/node_handle.h \
  /usr/include/c++/11/bits/unordered_map.h \
  /usr/include/c++/11/bits/erase_if.h \
- /home/yuhang/mprpc_study/src/include/mprpcchannel.h \
+ /home/yuhang/mprpc_study/src/include/mprpccontroller.h \
  /usr/local/include/google/protobuf/service.h \
  /usr/local/include/google/protobuf/stubs/callback.h \
  /usr/local/include/google/protobuf/stubs/macros.h \
@@ -239,6 +239,7 @@ example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o: \
  /usr/include/c++/11/pstl/glue_memory_defs.h /usr/include/c++/11/set \
  /usr/include/c++/11/bits/stl_set.h \
  /usr/include/c++/11/bits/stl_multiset.h \
+ /home/yuhang/mprpc_study/src/include/mprpcchannel.h \
  /usr/local/include/google/protobuf/descriptor.h \
  /usr/local/include/google/protobuf/stubs/mutex.h \
  /usr/include/c++/11/mutex /usr/include/c++/11/chrono \

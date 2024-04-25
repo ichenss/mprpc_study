@@ -25,6 +25,11 @@
   "file": "/home/yuhang/mprpc_study/src/mprpcchannel.cc"
 },
 {
+  "directory": "/home/yuhang/mprpc_study/build/src",
+  "command": "/usr/bin/g++  -I/home/yuhang/mprpc_study/src/include -I/home/yuhang/mprpc_study/example -g -o CMakeFiles/mprpc.dir/mprpccontroller.cc.o -c /home/yuhang/mprpc_study/src/mprpccontroller.cc",
+  "file": "/home/yuhang/mprpc_study/src/mprpccontroller.cc"
+},
+{
   "directory": "/home/yuhang/mprpc_study/build/example/callee",
   "command": "/usr/bin/g++  -I/home/yuhang/mprpc_study/src/include -I/home/yuhang/mprpc_study/example -g -o CMakeFiles/provider.dir/friendservice.cc.o -c /home/yuhang/mprpc_study/example/callee/friendservice.cc",
   "file": "/home/yuhang/mprpc_study/example/callee/friendservice.cc"
