@@ -1,6 +1,7 @@
 #include "rpcprovider.h"
 #include "mprpcapplication.h"
 #include "rpcheader.pb.h"
+#include "logger.h"
 
 void RpcProvider::NotifyService(google::protobuf::Service *service)
 {
@@ -13,14 +14,16 @@ void RpcProvider::NotifyService(google::protobuf::Service *service)
     // 获取服务对象service方法数量
     int methodCnt = pserviceDesc->method_count();
 
-    std::cout << "service_name: " << service_name << std::endl;
+    // std::cout << "service_name: " << service_name << std::endl;
+    LOG_INFO("service name:%s", service_name.c_str());
 
     for (int i = 0; i < methodCnt; ++i)
     {
         // 获取了服务对象指定下标的服务方法的描述（抽象描述）
         const google::protobuf::MethodDescriptor* pmethodDesc = pserviceDesc->method(i);
         std::string method_name = pmethodDesc->name();
-        std::cout << "method_name: " << method_name << std::endl;
+        // std::cout << "method_name: " << method_name << std::endl;
+        LOG_INFO("method_name:%s", method_name.c_str());
         service_info.m_methodMap.insert({method_name, pmethodDesc});
     }
     service_info.m_service = service;

@@ -344,4 +344,12 @@ example/callee/CMakeFiles/provider.dir/friendservice.cc.o: \
  /usr/include/c++/11/cxxabi.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h \
  /usr/include/muduo/net/EventLoop.h /usr/include/muduo/base/Mutex.h \
- /usr/include/muduo/base/CurrentThread.h /usr/include/muduo/net/TimerId.h
+ /usr/include/muduo/base/CurrentThread.h /usr/include/muduo/net/TimerId.h \
+ /home/yuhang/mprpc_study/src/include/logger.h \
+ /home/yuhang/mprpc_study/src/include/lockqueue.h \
+ /usr/include/c++/11/queue /usr/include/c++/11/deque \
+ /usr/include/c++/11/bits/stl_deque.h /usr/include/c++/11/bits/deque.tcc \
+ /usr/include/c++/11/bits/stl_queue.h /usr/include/c++/11/thread \
+ /usr/include/c++/11/bits/std_thread.h \
+ /usr/include/c++/11/bits/this_thread_sleep.h \
+ /usr/include/c++/11/condition_variable
