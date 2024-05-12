@@ -294,7 +294,11 @@ src/CMakeFiles/mprpc.dir/mprpcchannel.cc.o: \
  /usr/local/include/google/protobuf/map_field_lite.h \
  /usr/local/include/google/protobuf/inlined_string_field.h \
  /usr/local/include/google/protobuf/extension_set.h \
- /usr/include/c++/11/cassert /usr/include/x86_64-linux-gnu/sys/socket.h \
+ /usr/include/c++/11/cassert \
+ /home/yuhang/mprpc_study/src/include/zookeeperutil.h \
+ /usr/include/semaphore.h /usr/include/x86_64-linux-gnu/bits/semaphore.h \
+ /usr/local/include/zookeeper/zookeeper.h \
+ /usr/include/x86_64-linux-gnu/sys/socket.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
  /usr/include/x86_64-linux-gnu/bits/socket.h \
  /usr/include/x86_64-linux-gnu/bits/socket_type.h \
@@ -310,5 +314,9 @@ src/CMakeFiles/mprpc.dir/mprpcchannel.cc.o: \
  /usr/include/x86_64-linux-gnu/asm/sockios.h \
  /usr/include/asm-generic/sockios.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
- /usr/include/arpa/inet.h /usr/include/netinet/in.h \
- /usr/include/x86_64-linux-gnu/bits/in.h
+ /usr/include/x86_64-linux-gnu/sys/time.h \
+ /usr/local/include/zookeeper/proto.h \
+ /usr/local/include/zookeeper/zookeeper_version.h \
+ /usr/local/include/zookeeper/recordio.h \
+ /usr/local/include/zookeeper/zookeeper.jute.h /usr/include/arpa/inet.h \
+ /usr/include/netinet/in.h /usr/include/x86_64-linux-gnu/bits/in.h
